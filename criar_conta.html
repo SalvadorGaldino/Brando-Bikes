@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta - Brando Bikes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Criar Conta</h2>
+        <form action="criar_conta.php" method="POST">
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" name="username" id="username" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" required>
+            
+            <button type="submit">Criar Conta</button>
+            
+            <p><a href="login.html">Já tenho uma conta</a></p>
+        </form>
+    </div>
+</body>
+</html>
